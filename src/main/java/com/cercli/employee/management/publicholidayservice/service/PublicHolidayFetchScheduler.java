@@ -13,6 +13,7 @@ public class PublicHolidayFetchScheduler {
 
     ExternalHolidayService externalHolidayService;
 
+    //This scheduler can be configured for all the countries have.
     @Scheduled(cron = "0 0 0 1 * ?")  // Fetch holidays on the 1st of every month
     public void fetchPublicHolidays() {
         externalHolidayService.fetchAndStoreHolidays("US"); // Assuming we're fetching US holidays for now

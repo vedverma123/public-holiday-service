@@ -8,6 +8,5 @@ import java.util.List;
 
 public interface PublicHolidayRepository extends JpaRepository<PublicHolidayEntity, Long> {
     List<PublicHolidayEntity> findByLocationAndHolidayDateBetween(String location, LocalDate startDate, LocalDate endDate);
-    List<PublicHolidayEntity> findByLocation(String location);
 
 }
