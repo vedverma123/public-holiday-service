@@ -7,7 +7,7 @@ import com.cercli.employee.management.publicholidayservice.event.HolidayEvent;
 import com.cercli.employee.management.publicholidayservice.exception.PublicHolidayException;
 import com.cercli.employee.management.publicholidayservice.mapper.PublicHolidayMapper;
 import com.cercli.employee.management.publicholidayservice.repository.PublicHolidayRepository;
-import feign.EmployeeServiceFeignClient;
+import com.cercli.employee.management.publicholidayservice.feign.EmployeeServiceFeignClient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

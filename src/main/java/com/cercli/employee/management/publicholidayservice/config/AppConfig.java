@@ -13,7 +13,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableCaching
 @EnableRetry
 @EnableScheduling
-@EnableFeignClients
 public class AppConfig {
 
     @Bean
